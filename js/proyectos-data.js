@@ -2,7 +2,7 @@
    "descarga": ruta del archivo a descargar (ej. "assets/docs/inventra.pdf"). Vacío = el botón aún no lleva a nada. */
 const PROYECTOS = {
   "inventra": {
-    nombre: "Inventra Solutions", clase: "project-one", logo: "assets/img/proyectos/inventra.JPEG",
+    nombre: "Inventra Solutions", clase: "project-one", logo: "assets/img/proyectos/inventra.jpeg",
     categoria: "Software empresarial / ERP", etiquetas: ["Desarrollo de software", "Gestión, automatización e integración empresarial"],
     descarga: "",
     secciones: [
@@ -20,7 +20,7 @@ const PROYECTOS = {
     valor: "Transformar procesos administrativos dispersos en una estructura de gestión integrada, organizada y orientada a resultados."
   },
   "lean-vsm": {
-    nombre: "Lean VSM Generator", clase: "project-two", logo: "assets/img/proyectos/lean-vsm.JPEG",
+    nombre: "Lean VSM Generator", clase: "project-two", logo: "assets/img/proyectos/lean-vsm.jpeg",
     categoria: "Ingeniería industrial / Lean Manufacturing", etiquetas: ["Innovación industrial", "Automatización del análisis de procesos productivos"],
     descarga: "",
     secciones: [
@@ -40,7 +40,7 @@ const PROYECTOS = {
     valor: "Convertir datos operativos en mapas de flujo de valor dinámicos, facilitando la identificación de desperdicios, restricciones y oportunidades de mejora continua."
   },
   "smart-puerto-cortes": {
-    nombre: "Smart Puerto Cortés", clase: "project-three", logo: "assets/img/proyectos/smart-puerto-cortes.JPEG",
+    nombre: "Smart Puerto Cortés", clase: "project-three", logo: "assets/img/proyectos/smart-puerto-cortes.jpeg",
     categoria: "Smart City / Gobierno digital", etiquetas: ["Transformación digital urbana", "Tecnología aplicada a la gestión municipal"],
     descarga: "",
     secciones: [
@@ -61,7 +61,7 @@ const PROYECTOS = {
     valor: "Utilizar la tecnología para mejorar la capacidad de respuesta institucional, facilitar la participación ciudadana y optimizar la administración de los recursos municipales."
   },
   "moventi": {
-    nombre: "MOVENTI", clase: "project-four", logo: "assets/img/proyectos/moventi.JPEG",
+    nombre: "MOVENTI", clase: "project-four", logo: "assets/img/proyectos/moventi.jpeg",
     categoria: "Movilidad inteligente / Tecnología", etiquetas: ["Plataforma digital", "Conectividad, transporte y servicios bajo demanda"],
     descarga: "",
     secciones: [
@@ -85,7 +85,7 @@ const PROYECTOS = {
     valor: "Desarrollar una plataforma de movilidad adaptada al mercado hondureño que conecte personas, conductores y oportunidades mediante tecnología accesible y una administración centralizada."
   },
   "industrial-analytics": {
-    nombre: "Industrial Analytics", clase: "project-five", logo: "assets/img/proyectos/industrial-analytics.JPEG",
+    nombre: "Industrial Analytics", clase: "project-five", logo: "assets/img/proyectos/industrial-analytics.jpeg",
     categoria: "Business Intelligence / Ingeniería industrial", etiquetas: ["Inteligencia operativa", "Analítica de datos y control de operaciones"],
     descarga: "",
     secciones: [
@@ -104,7 +104,7 @@ const PROYECTOS = {
     valor: "Convertir los datos de las operaciones en información estratégica para mejorar la productividad, fortalecer el control y respaldar decisiones empresariales."
   },
   "greenforge": {
-    nombre: "GreenForge Energy", clase: "project-six", logo: "assets/img/proyectos/greenforge.JPEG",
+    nombre: "GreenForge Energy", clase: "project-six", logo: "assets/img/proyectos/greenforge.jpeg",
     categoria: "Innovación / Energía sostenible", etiquetas: ["Sostenibilidad e innovación", "Soluciones energéticas y aprovechamiento de recursos"],
     descarga: "",
     secciones: [
