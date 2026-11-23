@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Proyectos | Arnold Moesses</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="navbar container">
+        <a href="index.html" class="logo">ARNOLD<span>MOESSES.</span></a>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+            <i data-lucide="menu"></i>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="proyectos.html" class="active">Proyectos</a></li>
+            <li><a href="acerca.html">Acerca de mí</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="page-hero">
+    <div class="container">
+        <span class="eyebrow">PORTAFOLIO PROFESIONAL</span>
+        <h1>Proyectos e <span>innovación.</span></h1>
+        <p>
+            Soluciones tecnológicas, industriales y empresariales
+            orientadas a resolver problemas reales.
+        </p>
+    </div>
+</section>
+
+<section class="section container">
+
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="software">Software</button>
+        <button class="filter-btn" data-filter="engineering">Ingeniería</button>
+        <button class="filter-btn" data-filter="innovation">Innovación</button>
+    </div>
+
+    <div class="projects-grid" id="project-list">
+
+        <a href="proyecto.html?id=inventra" class="project-card" data-category="software">
+            <div class="project-image project-one">
+                <img src="assets/img/proyectos/inventra.JPEG" alt="Logo de Inventra Solutions">
+            </div>
+            <div class="project-info">
+                <span>SOFTWARE / ERP</span>
+                <h3>Inventra Solutions</h3>
+                <p>Sistema de gestión empresarial.</p>
+            </div>
+        </a>
+
+        <a href="proyecto.html?id=lean-vsm" class="project-card" data-category="engineering">
+            <div class="project-image project-two">
+                <img src="assets/img/proyectos/lean-vsm.JPEG" alt="Logo de Lean VSM Generator">
+            </div>
+            <div class="project-info">
+                <span>LEAN MANUFACTURING</span>
+                <h3>Lean VSM Generator</h3>
+                <p>Generador automatizado de mapas de flujo de valor.</p>
+            </div>
+        </a>
+
+        <a href="proyecto.html?id=smart-puerto-cortes" class="project-card" data-category="innovation">
+            <div class="project-image project-three">
+                <img src="assets/img/proyectos/smart-puerto-cortes.JPEG" alt="Logo de Smart Puerto Cortés">
+            </div>
+            <div class="project-info">
+                <span>SMART CITY</span>
+                <h3>Smart Puerto Cortés</h3>
+                <p>Propuesta de transformación digital urbana.</p>
+            </div>
+        </a>
+
+        <a href="proyecto.html?id=moventi" class="project-card" data-category="software">
+            <div class="project-image project-four">
+                <img src="assets/img/proyectos/moventi.JPEG" alt="Logo de MOVENTI">
+            </div>
+            <div class="project-info">
+                <span>MOVILIDAD / TECNOLOGÍA</span>
+                <h3>MOVENTI</h3>
+                <p>Concepto de plataforma de movilidad y transporte.</p>
+            </div>
+        </a>
+
+        <a href="proyecto.html?id=industrial-analytics" class="project-card" data-category="engineering">
+            <div class="project-image project-five">
+                <img src="assets/img/proyectos/industrial-analytics.JPEG" alt="Logo de Industrial Analytics">
+            </div>
+            <div class="project-info">
+                <span>BUSINESS INTELLIGENCE</span>
+                <h3>Industrial Analytics</h3>
+                <p>Visualización y análisis de indicadores operativos.</p>
+            </div>
+        </a>
+
+        <a href="proyecto.html?id=greenforge" class="project-card" data-category="innovation">
+            <div class="project-image project-six">
+                <img src="assets/img/proyectos/greenforge.JPEG" alt="Logo de GreenForge Energy">
+            </div>
+            <div class="project-info">
+                <span>INNOVACIÓN</span>
+                <h3>GreenForge Energy</h3>
+                <p>Concepto de innovación y soluciones energéticas.</p>
+            </div>
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <p>© <span id="year"></span> Arnold Moesses.</p>
+        <p>Engineering · Technology · Innovation</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/projects.js"></script>
+
+</body>
+</html>

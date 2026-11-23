@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Arnold Jacinto Gutiérrez Moesses">
+    <meta name="description" content="Contacta a Arnold Moesses, profesional de Ingeniería en Producción Industrial, tecnología, operaciones e innovación empresarial.">
+
+    <meta name="theme-color" content="#101827">
+
+    <title>Contacto | Arnold Moesses</title>
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- TIPOGRAFÍA -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ICONOS -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+
+<body>
+
+<!-- =====================================
+     NAVEGACIÓN
+===================================== -->
+
+<header class="header">
+
+    <nav class="navbar container">
+
+        <a href="index.html" class="logo">
+            ARNOLD<span>MOESSES.</span>
+        </a>
+
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Abrir menú"
+            aria-expanded="false">
+
+            <i data-lucide="menu"></i>
+
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+
+            <li><a href="index.html">Inicio</a></li>
+
+            <li><a href="proyectos.html">Proyectos</a></li>
+
+            <li><a href="acerca.html">Acerca de mí</a></li>
+
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+<!-- =====================================
+     PORTADA
+===================================== -->
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <span class="eyebrow">
+            CONECTEMOS PROFESIONALMENTE
+        </span>
+
+        <h1>
+            Hablemos de nuevas
+            <span>oportunidades.</span>
+        </h1>
+
+        <p>
+            Estoy abierto a oportunidades laborales,
+            proyectos tecnológicos, colaboraciones
+            profesionales y nuevas iniciativas empresariales.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     INFORMACIÓN DE CONTACTO
+===================================== -->
+
+<section class="section container contact-grid">
+
+    <div class="contact-info">
+
+        <span class="eyebrow">
+            INFORMACIÓN PROFESIONAL
+        </span>
+
+        <h2>
+            Arnold Moesses
+        </h2>
+
+        <p>
+            Gracias por visitar mi espacio profesional.
+
+            Si deseas conversar sobre ingeniería,
+            operaciones, logística, tecnología,
+            innovación o posibles oportunidades
+            de colaboración, puedes comunicarte conmigo.
+        </p>
+
+
+        <!-- CORREO -->
+
+        <div class="contact-item">
+
+            <i data-lucide="mail"></i>
+
+            <div>
+
+                <strong>Correo electrónico</strong>
+
+                <a href="mailto:moesses2815@gmail.com">
+                    moesses2815@gmail.com
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- LINKEDIN -->
+
+        <div class="contact-item">
+
+            <i data-lucide="linkedin"></i>
+
+            <div>
+
+                <strong>LinkedIn profesional</strong>
+
+                <a
+                    href="https://www.linkedin.com/in/arnold-gutierrez-b293b4231"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    Visitar mi perfil
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- UBICACIÓN -->
+
+        <div class="contact-item">
+
+            <i data-lucide="map-pin"></i>
+
+            <div>
+
+                <strong>Ubicación</strong>
+
+                <span>Honduras</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- ESPECIALIDADES -->
+
+        <div class="contact-specialties">
+
+            <span>Engineering</span>
+            <span>Technology</span>
+            <span>Innovation</span>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================
+         FORMULARIO
+    ===================================== -->
+
+    <form id="contact-form" class="contact-form">
+
+        <h2>Envíame un mensaje</h2>
+
+        <p>
+            Completa los siguientes campos para
+            preparar tu mensaje de contacto.
+        </p>
+
+
+        <label for="name">
+            Nombre completo
+        </label>
+
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Tu nombre"
+            required
+            maxlength="100">
+
+
+        <label for="email">
+            Correo electrónico
+        </label>
+
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="correo@ejemplo.com"
+            required
+            maxlength="150">
+
+
+        <label for="company">
+            Empresa
+        </label>
+
+        <input
+            type="text"
+            id="company"
+            name="company"
+            placeholder="Nombre de tu empresa"
+            maxlength="150">
+
+
+        <label for="subject">
+            Motivo del contacto
+        </label>
+
+        <select id="subject" name="subject" required>
+
+            <option value="">Seleccionar motivo</option>
+
+            <option value="Oportunidad laboral">
+                Oportunidad laboral
+            </option>
+
+            <option value="Proyecto tecnológico">
+                Proyecto tecnológico
+            </option>
+
+            <option value="Consultoría profesional">
+                Consultoría profesional
+            </option>
+
+            <option value="Colaboración empresarial">
+                Colaboración empresarial
+            </option>
+
+            <option value="Otro">
+                Otro
+            </option>
+
+        </select>
+
+
+        <label for="message">
+            Mensaje
+        </label>
+
+        <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Escribe tu mensaje..."
+            required
+            maxlength="3000"></textarea>
+
+
+        <button type="submit" class="btn btn-primary">
+
+            <i data-lucide="send"></i>
+
+            Preparar mensaje
+
+        </button>
+
+
+        <p id="form-status" role="status"></p>
+
+    </form>
+
+</section>
+
+</main>
+
+
+<!-- =====================================
+     FOOTER
+===================================== -->
+
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <div>
+
+            <a href="index.html" class="logo">
+                ARNOLD<span>MOESSES.</span>
+            </a>
+
+            <p>
+                Engineering · Technology · Innovation
+            </p>
+
+        </div>
+
+
+        <div class="social-links">
+
+            <a
+                href="mailto:moesses2815@gmail.com"
+                aria-label="Correo electrónico">
+
+                <i data-lucide="mail"></i>
+
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/arnold-gutierrez-b293b4231"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn">
+
+                <i data-lucide="linkedin"></i>
+
+            </a>
+
+        </div>
+
+
+        <p>
+            © <span id="year"></span>
+            Arnold Jacinto Gutiérrez Moesses.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+
+</body>
+
+</html>

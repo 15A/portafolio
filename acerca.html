@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Acerca de mí | Arnold Moesses</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="navbar container">
+        <a href="index.html" class="logo">ARNOLD<span>MOESSES.</span></a>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+            <i data-lucide="menu"></i>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="acerca.html" class="active">Acerca de mí</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="page-hero">
+    <div class="container">
+        <span class="eyebrow">PERFIL PROFESIONAL</span>
+        <h1>Acerca de <span>mí.</span></h1>
+        <p>Ingeniería, tecnología y pensamiento estratégico.</p>
+    </div>
+</section>
+
+<section class="section container about-grid">
+
+    <div class="about-photo">
+        <img src="assets/img/perfil/arnold.jpg"
+             alt="Fotografía profesional de Arnold Moesses">
+    </div>
+
+    <div class="about-content">
+
+        <span class="eyebrow">ARNOLD JACINTO GUTIÉRREZ MOESSES</span>
+
+        <h2>Ingeniería con visión tecnológica.</h2>
+
+        <p>
+            Soy profesional de Ingeniería en Producción Industrial,
+            egresado de la Universidad Tecnológica de Honduras (UTH),
+            con experiencia en operaciones, logística, almacenes
+            y gestión de procesos.
+        </p>
+
+        <p>
+           Mi enfoque profesional integra la ingeniería industrial, el desarrollo de software,
+           la inteligencia de negocios y la automatización tecnológica para diseñar soluciones 
+           que fortalezcan la eficiencia operativa, optimicen los recursos y mejoren la toma de
+           decisiones
+        </p>
+
+         <p>
+           Me motiva transformar desafíos empresariales en oportunidades de innovación, combinando
+           pensamiento analítico, visión estratégica y tecnología aplicada para impulsar la productividad
+           y la transformación digital de las organizaciones.
+        </p>
+
+        <a href="contacto.html" class="btn btn-primary">
+            Hablemos
+        </a>
+
+    </div>
+
+</section>
+
+<section class="section section-dark">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">COMPETENCIAS</span>
+            <h2>Áreas de conocimiento.</h2>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <i data-lucide="factory"></i>
+                <h3>Operaciones</h3>
+                <p>Gestión de almacenes, inventarios y logística.</p>
+            </div>
+
+            <div class="skill-card">
+                <i data-lucide="workflow"></i>
+                <h3>Mejora continua</h3>
+                <p>Lean Manufacturing y optimización de procesos.</p>
+            </div>
+
+            <div class="skill-card">
+                <i data-lucide="database"></i>
+                <h3>Datos</h3>
+                <p>Excel, Power BI, SQL y análisis de información.</p>
+            </div>
+
+            <div class="skill-card">
+                <i data-lucide="code"></i>
+                <h3>Desarrollo</h3>
+                <p>PHP, JavaScript, Python y MySQL.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <p>© <span id="year"></span> Arnold Moesses.</p>
+        <p>Engineering · Technology · Innovation</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

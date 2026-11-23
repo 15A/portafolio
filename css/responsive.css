@@ -1,0 +1,17 @@
+@media (max-width:860px){
+  .section,.section-dark,.featured-projects{padding:4rem 0}
+  .about-grid,.contact-grid{grid-template-columns:1fr;gap:2.5rem}
+  .about-photo{max-width:380px}
+  .menu-toggle{display:block}
+  .nav-links{position:absolute;top:72px;left:0;right:0;flex-direction:column;gap:0;background:var(--ink);border-bottom:1px solid var(--line);max-height:0;overflow:hidden;transition:max-height .3s}
+  .nav-links.open{max-height:320px}
+  .nav-links a{display:block;padding:1rem 1.25rem;border:0}
+  .hero-content{grid-template-columns:1fr}
+  .hero-photo{grid-column:1;grid-row:auto;max-width:300px;margin-top:3rem;box-shadow:10px 10px 0 var(--amber)}
+}
+@media (max-width:520px){
+  .hero-buttons{flex-direction:column}
+  .btn{justify-content:center}
+  .contact-form{padding:1.5rem}
+  .hero-signature{flex-direction:column;gap:.3rem}
+}
